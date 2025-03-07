@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E6E1E78F2D7BB12A00B8A718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E1E7762D7BB12800B8A718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E1E77D2D7BB12800B8A718;
+			remoteInfo = Bevel_Widget;
+		};
+		E6E1E7992D7BB12A00B8A718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6E1E7762D7BB12800B8A718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6E1E77D2D7BB12800B8A718;
+			remoteInfo = Bevel_Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6E1E77E2D7BB12800B8A718 /* Bevel_Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bevel_Widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E1E78E2D7BB12A00B8A718 /* Bevel_WidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bevel_WidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E1E7982D7BB12A00B8A718 /* Bevel_WidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bevel_WidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E6E1E7802D7BB12800B8A718 /* Bevel_Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bevel_Widget;
+			sourceTree = "<group>";
+		};
+		E6E1E7912D7BB12A00B8A718 /* Bevel_WidgetTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bevel_WidgetTests;
+			sourceTree = "<group>";
+		};
+		E6E1E79B2D7BB12A00B8A718 /* Bevel_WidgetUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Bevel_WidgetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E1E77B2D7BB12800B8A718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E78B2D7BB12A00B8A718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E7952D7BB12A00B8A718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E1E7752D7BB12800B8A718 = {
+			isa = PBXGroup;
+			children = (
+				E6E1E7802D7BB12800B8A718 /* Bevel_Widget */,
+				E6E1E7912D7BB12A00B8A718 /* Bevel_WidgetTests */,
+				E6E1E79B2D7BB12A00B8A718 /* Bevel_WidgetUITests */,
+				E6E1E77F2D7BB12800B8A718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E1E77F2D7BB12800B8A718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E1E77E2D7BB12800B8A718 /* Bevel_Widget.app */,
+				E6E1E78E2D7BB12A00B8A718 /* Bevel_WidgetTests.xctest */,
+				E6E1E7982D7BB12A00B8A718 /* Bevel_WidgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E1E77D2D7BB12800B8A718 /* Bevel_Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E1E7A22D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_Widget" */;
+			buildPhases = (
+				E6E1E77A2D7BB12800B8A718 /* Sources */,
+				E6E1E77B2D7BB12800B8A718 /* Frameworks */,
+				E6E1E77C2D7BB12800B8A718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E6E1E7802D7BB12800B8A718 /* Bevel_Widget */,
+			);
+			name = Bevel_Widget;
+			packageProductDependencies = (
+			);
+			productName = Bevel_Widget;
+			productReference = E6E1E77E2D7BB12800B8A718 /* Bevel_Widget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6E1E78D2D7BB12A00B8A718 /* Bevel_WidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E1E7A52D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_WidgetTests" */;
+			buildPhases = (
+				E6E1E78A2D7BB12A00B8A718 /* Sources */,
+				E6E1E78B2D7BB12A00B8A718 /* Frameworks */,
+				E6E1E78C2D7BB12A00B8A718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E1E7902D7BB12A00B8A718 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6E1E7912D7BB12A00B8A718 /* Bevel_WidgetTests */,
+			);
+			name = Bevel_WidgetTests;
+			packageProductDependencies = (
+			);
+			productName = Bevel_WidgetTests;
+			productReference = E6E1E78E2D7BB12A00B8A718 /* Bevel_WidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6E1E7972D7BB12A00B8A718 /* Bevel_WidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E1E7A82D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_WidgetUITests" */;
+			buildPhases = (
+				E6E1E7942D7BB12A00B8A718 /* Sources */,
+				E6E1E7952D7BB12A00B8A718 /* Frameworks */,
+				E6E1E7962D7BB12A00B8A718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6E1E79A2D7BB12A00B8A718 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E6E1E79B2D7BB12A00B8A718 /* Bevel_WidgetUITests */,
+			);
+			name = Bevel_WidgetUITests;
+			packageProductDependencies = (
+			);
+			productName = Bevel_WidgetUITests;
+			productReference = E6E1E7982D7BB12A00B8A718 /* Bevel_WidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E1E7762D7BB12800B8A718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E6E1E77D2D7BB12800B8A718 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E6E1E78D2D7BB12A00B8A718 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E6E1E77D2D7BB12800B8A718;
+					};
+					E6E1E7972D7BB12A00B8A718 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = E6E1E77D2D7BB12800B8A718;
+					};
+				};
+			};
+			buildConfigurationList = E6E1E7792D7BB12800B8A718 /* Build configuration list for PBXProject "Bevel_Widget" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E1E7752D7BB12800B8A718;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E6E1E77F2D7BB12800B8A718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E1E77D2D7BB12800B8A718 /* Bevel_Widget */,
+				E6E1E78D2D7BB12A00B8A718 /* Bevel_WidgetTests */,
+				E6E1E7972D7BB12A00B8A718 /* Bevel_WidgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E1E77C2D7BB12800B8A718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E78C2D7BB12A00B8A718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E7962D7BB12A00B8A718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E1E77A2D7BB12800B8A718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E78A2D7BB12A00B8A718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E1E7942D7BB12A00B8A718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6E1E7902D7BB12A00B8A718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E1E77D2D7BB12800B8A718 /* Bevel_Widget */;
+			targetProxy = E6E1E78F2D7BB12A00B8A718 /* PBXContainerItemProxy */;
+		};
+		E6E1E79A2D7BB12A00B8A718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6E1E77D2D7BB12800B8A718 /* Bevel_Widget */;
+			targetProxy = E6E1E7992D7BB12A00B8A718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E6E1E7A02D7BB12A00B8A718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6E1E7A12D7BB12A00B8A718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E1E7A32D7BB12A00B8A718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bevel_Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6E1E7A42D7BB12A00B8A718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Bevel_Widget/Preview Content\"";
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6E1E7A62D7BB12A00B8A718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bevel_Widget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bevel_Widget";
+			};
+			name = Debug;
+		};
+		E6E1E7A72D7BB12A00B8A718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-WidgetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bevel_Widget.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bevel_Widget";
+			};
+			name = Release;
+		};
+		E6E1E7A92D7BB12A00B8A718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bevel_Widget;
+			};
+			name = Debug;
+		};
+		E6E1E7AA2D7BB12A00B8A718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZQQ7LVJ5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ktran.Bevel-WidgetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bevel_Widget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E1E7792D7BB12800B8A718 /* Build configuration list for PBXProject "Bevel_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E1E7A02D7BB12A00B8A718 /* Debug */,
+				E6E1E7A12D7BB12A00B8A718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E1E7A22D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E1E7A32D7BB12A00B8A718 /* Debug */,
+				E6E1E7A42D7BB12A00B8A718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E1E7A52D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_WidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E1E7A62D7BB12A00B8A718 /* Debug */,
+				E6E1E7A72D7BB12A00B8A718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E1E7A82D7BB12A00B8A718 /* Build configuration list for PBXNativeTarget "Bevel_WidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E1E7A92D7BB12A00B8A718 /* Debug */,
+				E6E1E7AA2D7BB12A00B8A718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E1E7762D7BB12800B8A718 /* Project object */;
+}
